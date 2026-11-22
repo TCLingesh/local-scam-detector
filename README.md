@@ -26,7 +26,7 @@ For full technical details, model architectures, and evaluation metrics, please 
 ## 📊 Performance & Evaluation
 
 * **Accuracy:** Reaches an F1 score of 0.927 on the realistic Mendeley slice. On a real-inbox slice, it maintains a low false-alarm rate of ~5.1%.
-* **Speed:** Detection and verdict generation take mere milliseconds after a notification arrives. The Llama-generated explanation streams and completes in roughly 14–17 seconds.
+* **Speed:** Detection and verdict generation take mere milliseconds after a notification arrives. The Llama-generated explanation streams and completes in roughly 4-7 seconds.
 * **Memory Footprint:** The app requires ~25MB of storage, plus ~820MB stored separately on the device for the quantized Llama `.pte` model.
 
 ## 🛠️ Tech Stack

@@ -1,0 +1,37 @@
+# Gradle / build output (matches app/build/ too)
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Android Studio: ignore the whole folder
+.idea/
+*.iml
+
+# Local config (contains SDK paths)
+local.properties
+
+# Signing keys
+*.jks
+*.keystore
+
+# On-device model files (too big for GitHub, 100 MB limit)
+*.pte
+!sms_charcnn.pte
+*.gguf
+*.bin
+*.ptd
+tokenizer.model
+tokenizer.json
+tokenizer.bin
+tokenizer_config.json
+
+# APK / bundles
+*.apk
+*.aab
+*.ap_
+
+# OS junk
+.DS_Store
+Thumbs.db

@@ -1,0 +1,3 @@
+Total delegated subgraphs: 2
+Number of delegated nodes: 5
+Number of non-delegated nodes: 5

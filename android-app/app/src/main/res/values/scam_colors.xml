@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sg_bg">#0B1020</color>
+    <color name="sg_card">#141B34</color>
+    <color name="sg_stroke">#252F55</color>
+    <color name="sg_primary">#22D3EE</color>
+    <color name="sg_accent">#8B5CF6</color>
+    <color name="sg_safe">#34D399</color>
+    <color name="sg_danger">#FB7185</color>
+    <color name="sg_warn">#FBBF24</color>
+    <color name="sg_text">#F1F5F9</color>
+    <color name="sg_text2">#94A3B8</color>
+</resources>

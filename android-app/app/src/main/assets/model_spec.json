@@ -1,0 +1,34 @@
+{
+  "name": "sms_charcnn",
+  "model_file": "sms_charcnn.pte",
+  "vocab_file": "vocab.json",
+  "input": {
+    "shape": [
+      1,
+      256
+    ],
+    "dtype": "int64",
+    "preprocessing": [
+      "1. lowercase the whole text (Python str.lower(); Java: toLowerCase(Locale.ROOT))",
+      "2. keep only the first max_len CODE POINTS (not UTF-16 chars)",
+      "3. map each code point to its index in vocab.json; unknown -> unk_index",
+      "4. pad with pad_index up to max_len"
+    ],
+    "max_len": 256,
+    "pad_index": 0,
+    "unk_index": 1
+  },
+  "output": {
+    "shape": [
+      1,
+      2
+    ],
+    "dtype": "float32",
+    "labels": [
+      "legit",
+      "scam"
+    ],
+    "postprocessing": "softmax is already inside the model; scam if output[1] >= threshold"
+  },
+  "threshold": 0.42
+}

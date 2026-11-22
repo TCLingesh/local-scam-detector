@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+snapshots/
+toy.py
+toy.pte
+test.py
+data/*
+!data/README.md
+trunc_check.py
