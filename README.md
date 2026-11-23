@@ -4,7 +4,7 @@
 
 ScamGuard is a privacy-first Android application designed to detect scam text messages and explain the threats in plain language—entirely on your device. By leveraging a character-level CNN and a quantized Llama 3.2 1B Instruct model running via ExecuTorch, ScamGuard provides rapid, offline protection without ever sending your private messages to the cloud.
 
-For full technical details, model architectures, and evaluation metrics, please refer to the **ScamGuard_Technical_Report.docx** file.
+📄 **Final Report:** For full technical details, model architectures, hardware benchmarks, and evaluation metrics, refer to [`ScamGuard_Technical_Report.docx`](ScamGuard_Technical_Report.docx).
 
 ## 🚀 Key Features
 
